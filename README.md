@@ -1,14 +1,14 @@
 # Update README.md with local URL
 @"
-# 🛍️ E-Commerce Website
+# E-Commerce Website
 
 A full-stack e-commerce application built with the MERN stack (MongoDB, Express.js, React.js, Node.js) that enables users to explore products, view product details, and manage a shopping cart.
 
-## 🚀 Live Demo
+## Live Demo
 - **Frontend**: http://localhost:5173/
 - **Backend API**: http://localhost:5000
 
-## 📋 Project Workflow
+## Project Workflow
 
 ### Phase 1: Project Setup & Architecture
 1. **Tech Stack Selection**
@@ -87,7 +87,7 @@ A full-stack e-commerce application built with the MERN stack (MongoDB, Express.
 - **Mongoose** - MongoDB object modeling
 - **CORS** - Cross-origin resource sharing
 
-## 📁 Project Structure
+## Project Structure
 
 \`\`\`
 ECommerce-Website/
@@ -116,7 +116,7 @@ ECommerce-Website/
 └── README.md               # Project Documentation
 \`\`\`
 
-## 🚀 Installation & Setup
+## Installation & Setup
 
 ### Prerequisites
 - Node.js (v14 or higher)
@@ -154,7 +154,7 @@ npm run dev
 \`\`\`
 **Frontend runs on:** http://localhost:5173/
 
-## 🔌 API Endpoints
+## API Endpoints
 
 ### Products
 - \`GET /api/products\` - Retrieve all products
@@ -167,7 +167,7 @@ npm run dev
 - \`PUT /api/cart/:sessionId/items/:itemId\` - Update cart item
 - \`DELETE /api/cart/:sessionId/items/:itemId\` - Remove item from cart
 
-## 💡 Key Features
+## Key Features
 
 ### Product Management
 - **Product Catalog**: Grid layout displaying all available products
@@ -185,7 +185,7 @@ npm run dev
 - **Fast Navigation**: React Router for seamless page transitions
 - **Interactive UI**: Hover effects and smooth animations
 
-## 🎯 Prompts Used for Development
+##  Prompts Used for Development
 
 ### Technical Architecture
 \`\`\`
@@ -207,7 +207,7 @@ Set up Express.js server with MongoDB connection, create Product and Cart models
 Create React components for product listing, product details, and shopping cart. Implement state management for cart functionality, add React Router for navigation between pages, and ensure responsive design with clean UI.
 \`\`\`
 
-## 🔄 Development Workflow
+##  Development Workflow
 
 1. **Planning Phase**
    - Requirement analysis
@@ -238,7 +238,7 @@ Create React components for product listing, product details, and shopping cart.
    - Comprehensive documentation
    - Deployment preparation
 
-## 🎨 UI/UX Features
+##  UI/UX Features
 
 - **Modern Design**: Clean and professional appearance
 - **Interactive Elements**: Hover effects and smooth transitions
@@ -257,26 +257,26 @@ Create React components for product listing, product details, and shopping cart.
 - Image upload functionality
 - Wishlist feature
 
-## 👨‍💻 Developer
+##  Developer
 
 **Deepa**  
 - GitHub: [deepa-sh04](https://github.com/deepa-sh04)
 - Project Repository: https://github.com/deepa-sh04/E-commercewebsite
 
-## 📄 License
+##  License
 
 This project is created for educational purposes and portfolio demonstration.
 
 ---
 
-**Built with ❤️ using MERN Stack**
+**Built with  using MERN Stack**
 "@ | Out-File -FilePath "README.md" -Encoding utf8
 
-Write-Host "✅ README.md updated with local development URLs!"
+Write-Host " README.md updated with local development URLs!"
 
 # Push the updated documentation to GitHub
 git add README.md
 git commit -m "Update README with local development URLs and complete documentation"
 git push origin main
 
-Write-Host "🎉 PROJECT COMPLETELY FINISHED! Ready for Diligent submission!"
+Write-Host " PROJECT COMPLETELY FINISHED! Ready for Diligent submission!"
