@@ -1,0 +1,10 @@
+Review and enhance my e-commerce website codebase for:
+
+1. Code Structure & Organization (Modular components, proper file structure)
+2. Error Handling (API error boundaries, user-friendly messages)
+3. Performance Optimization (React memo, useCallback, efficient re-renders)
+4. Security Best Practices (Input validation, CORS configuration)
+5. Responsive Design (Mobile-first approach, cross-browser compatibility)
+6. Accessibility Features (ARIA labels, keyboard navigation)
+
+Provide specific code improvements and industry best practices implementation.
