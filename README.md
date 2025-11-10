@@ -1,11 +1,11 @@
-# Create comprehensive README.md
+# Update README.md with local URL
 @"
 # 🛍️ E-Commerce Website
 
 A full-stack e-commerce application built with the MERN stack (MongoDB, Express.js, React.js, Node.js) that enables users to explore products, view product details, and manage a shopping cart.
 
 ## 🚀 Live Demo
-- **Frontend**: http://localhost:5173
+- **Frontend**: http://localhost:5173/
 - **Backend API**: http://localhost:5000
 
 ## 📋 Project Workflow
@@ -139,6 +139,7 @@ npm install
 # Start development server
 npm run dev
 \`\`\`
+**Backend runs on:** http://localhost:5000
 
 ### Frontend Setup
 \`\`\`bash
@@ -151,6 +152,7 @@ npm install
 # Start development server
 npm run dev
 \`\`\`
+**Frontend runs on:** http://localhost:5173/
 
 ## 🔌 API Endpoints
 
@@ -270,11 +272,11 @@ This project is created for educational purposes and portfolio demonstration.
 **Built with ❤️ using MERN Stack**
 "@ | Out-File -FilePath "README.md" -Encoding utf8
 
-Write-Host "✅ Complete documentation created!"
+Write-Host "✅ README.md updated with local development URLs!"
 
-# Now push the documentation to GitHub
+# Push the updated documentation to GitHub
 git add README.md
-git commit -m "Add comprehensive project documentation and workflow"
+git commit -m "Update README with local development URLs and complete documentation"
 git push origin main
 
-Write-Host "🎉 PROJECT COMPLETED AND DOCUMENTED! Ready for submission to Diligent!"
+Write-Host "🎉 PROJECT COMPLETELY FINISHED! Ready for Diligent submission!"
