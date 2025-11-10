@@ -246,7 +246,7 @@ Create React components for product listing, product details, and shopping cart.
 - **Product Cards**: Attractive product displays with emoji icons
 - **Navigation**: Intuitive routing between pages
 
-## 🔮 Future Enhancements
+##  Future Enhancements
 
 - User authentication and profiles
 - Product search and filtering
