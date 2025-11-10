@@ -1,10 +1,9 @@
-Create an E-Commerce Website that enables users to explore products, view product details, and manage a shopping cart. The site should have a clean and responsive UI, a lightweight backend to handle data operations, and basic state management for cart functionality.
-
+Create an E-Commerce Website that enables users to explore products, view product details, and manage a shopping cart.
+The site should have a clean and responsive UI, a lightweight backend to handle data operations, and basic state management for cart functionality.
 Tech Stack:
-Frontend: React.js (or Next.js), React Router for navigation
+Frontend: React.js, React Router for navigation
 Backend: Node.js with Express.js
 Database: MongoDB Atlas
-
 Artifacts to Deliver:
 1. Technical architecture documentation
 2. Code base
