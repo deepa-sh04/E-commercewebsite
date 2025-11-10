@@ -7,6 +7,8 @@ A full-stack e-commerce application built with the MERN stack (MongoDB, Express.
 ## Live Demo
 - **Frontend**: http://localhost:5173/
 - **Backend API**: http://localhost:5000
+- <img width="1775" height="836" alt="image" src="https://github.com/user-attachments/assets/9743ba7a-a6c5-481f-a5b9-2573e9c85675" />
+
 
 ## Project Workflow
 
