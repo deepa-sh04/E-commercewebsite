@@ -1,0 +1,10 @@
+Create comprehensive technical documentation for my MERN stack e-commerce website that includes:
+
+1. System Architecture Diagram (MERN stack layers)
+2. Database Schema Design (Product & Cart models)
+3. API Endpoint Specifications (RESTful routes)
+4. Component Hierarchy (React components structure)
+5. State Management Flow (Cart state handling)
+6. Deployment Instructions (Local setup & production)
+
+Format as professional developer documentation with clear sections, code examples, and architecture diagrams.
