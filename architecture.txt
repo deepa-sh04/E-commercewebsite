@@ -1,0 +1,48 @@
+text
+# E-COMMERCE ARCHITECTURE
+=======================
+
+## SYSTEM OVERVIEW
+- **Type**: MERN Stack (MongoDB, Express, React, Node.js)
+- **Pattern**: Client-Server with REST API
+- **Frontend**: React + Vite (Port 5173)
+- **Backend**: Express.js (Port 5000)
+- **Database**: MongoDB with Mongoose
+
+## COMPONENT STRUCTURE
+
+### FRONTEND (React)
+App
+├── Router
+│ ├── HomePage (/)
+│ │ ├── ProductGrid → ProductCard
+│ │ └── CartSidebar
+│ └── ProductDetail (/product/:id)
+└── State: useState (products, cart)
+
+text
+
+### BACKEND (Express)
+Server
+├── Routes
+│ ├── /api/products (GET all, GET by ID)
+│ └── /api/cart (GET cart, POST add item)
+├── Models
+│ ├── Product (name, price, description)
+│ └── Cart (sessionId, items, total)
+└── Middleware (CORS, JSON parser)
+
+text
+
+## DATA FLOW
+1. User Action → React Component
+2. API Call → Express Route
+3. Database Query → MongoDB
+4. Response → Update State → UI Re-render
+
+## KEY FEATURES
+- Product catalog with details pages
+- Shopping cart management
+- Responsive UI design
+- RESTful API architecture
+- MongoDB data persistence
